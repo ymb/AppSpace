@@ -1,0 +1,13 @@
+repeat
+  placeDishesInMachine();
+until (machine == FULL);
+
+addTablet();
+selectProgram();
+
+if (washing == 1) {
+	time = CheckTimeRemaining();
+	returnAfter(time);
+} else {
+	EmptyMachine();
+}
