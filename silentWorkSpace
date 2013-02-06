@@ -1,5 +1,5 @@
 silentWorkSpace() {
-    phoneRingerVolume = 0;
+	phoneRingerVolume = 0;
 	laptopSpeakerVolume = 0;
 	headphones = TRUE;
 	conversation = FALSE;
