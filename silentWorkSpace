@@ -1,0 +1,10 @@
+silentWorkSpace() {
+  phoneRingerVolume == 0;
+	laptopSpeakerVolume == 0;
+	headphones == TRUE;
+	conversation == FALSE;
+
+	if (brainstorming == TRUE || phonecall == TRUE) {
+		leaveRoom();
+	}
+}
