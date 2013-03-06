@@ -1,4 +1,4 @@
 AppSpace
 ========
 
-AppCampus AppSapce signs
+AppCampus AppSpace signs
