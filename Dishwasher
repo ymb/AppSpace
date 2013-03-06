@@ -4,6 +4,7 @@ until (machine == FULL);
 
 addTablet();
 selectProgram();
+turnOnWater();
 
 if (washing == 1) {
 	time = CheckTimeRemaining();
