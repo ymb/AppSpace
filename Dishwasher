@@ -5,7 +5,7 @@ until (machine == FULL);
 addTablet();
 selectProgram();
 
-if (washing == 1) {
+if (washing == TRUE) {
 	time = CheckTimeRemaining();
 	returnAfter(time);
 } else {
