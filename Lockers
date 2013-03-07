@@ -2,7 +2,8 @@ UseLockers(myBagOfStuff)
 {
     lockerNumber = FindEmptyLocker();
     OpenDoor(lockerNumber);
-    doorCombination = setCombination(lockerNumber);
+    doorCombination = SetCombination(lockerNumber);
+    PutThingsIn(myBagOfStuff);
     CloseDoor(lockerNumber);
     SpinNumbers(lockerNumber, someRandomNumber);
 }
@@ -12,6 +13,7 @@ GetMyStuffFromLockers(lockerNumber, doorCombination)
     FindLocker(lockerNumber);
     SpinNumbers(lockerNumber, doorCombination);
     OpenDoor(lockerNumber);
-    setCombination("0000");
+    myBagOfStuff = GetMyStuffBack();
+    SetCombination("0000");
     CloseDoor(lockerNumber);
 }
