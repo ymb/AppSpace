@@ -1,6 +1,6 @@
 repeat
   placeDishesInMachine();
-until (machine == FULL);
+until (machine == FULL || NumCleanDish == 0);
 
 addTablet();
 selectProgram();
