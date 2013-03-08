@@ -6,7 +6,7 @@ addTablet();
 selectProgram("45´");
 turnOnWater();
 
-if (washing == 1) {
+if (washing == TRUE) {
 	time = CheckTimeRemaining();
 	returnAfter(time);
 } else {
