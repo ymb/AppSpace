@@ -3,7 +3,7 @@ repeat
 until (machine == FULL || NumCleanDish == 0);
 
 addTablet();
-selectProgram();
+selectProgram("45´");
 turnOnWater();
 
 if (washing == 1) {
